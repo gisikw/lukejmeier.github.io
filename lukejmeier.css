@@ -1,6 +1,8 @@
 
 .container .box {
     height: 25vh;
+    border: 2px;
+    border-radius: 25px;
 }
 
 .color1 {
@@ -89,5 +91,9 @@ img {
     text-align: left;
     font-size: 14px;
     font-family: "Times New Roman";
+}
+.img-box {
+    background-image: url("https://scontent-b-iad.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10295418_579268085522947_2572780160211825879_o.jpg");
+    background-size: cover;
     
     
