@@ -1,3 +1,6 @@
+html, body, .container {
+    height: 100%;
+}
 
 .container .box {
     height: 25vh;
@@ -73,9 +76,9 @@ a {
     font-size: 25px;
     font-family: 'Josefin Slab', serif;
     font-weight: 400;
-    
-    
-    
+
+
+
 }
 hr {
     border: none;
@@ -86,7 +89,7 @@ hr {
 img {
     max-height: 100%;
     max-width: 100%;
-    
+
 }
 .text-margins {
     margin-right: 67px;
@@ -98,7 +101,7 @@ img {
 #about-me-photo-div {
     margin-right: 15px;
     margin-bottom: 5px;
-    
+
 }
 .text-margins p {
     text-indent: 40px;
@@ -113,6 +116,6 @@ img {
     background-size: cover;
     border: 2px;
     border-radius: 25px;
-    
 
-    
+
+
