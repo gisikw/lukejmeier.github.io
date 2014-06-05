@@ -9,11 +9,24 @@
 .color1 {
     background-color: rgba(201, 79, 211, 0.6);
 }
+.color1-hovering {
+    background-color: rgba(201, 79, 211, 0.6);
+}
+
+.color1-hovering:hover {
+    background-color: rgba(201, 79, 211, 0.4);
+}
 
 .color2 {
     background-color: rgba(50, 161, 244, 0.6);
 }
 
+.color2-hovering {
+    background-color: rgba(50, 161, 244, 0.6);
+}
+.color2-hovering:hover {
+    background-color: rgba(50, 161, 244, 0.4)
+}
 .color3 {
     background-color: rgba(0, 26, 255, 0.08);
 }
@@ -26,6 +39,8 @@ body {
     background-color: white;
     max-width: 800px;
     min-width: 600px;
+}
+.full-view-height {
     height: 100vh;
 }
 
@@ -35,8 +50,8 @@ body {
 
 
 .name h1 {
-    font-size: 120px;
-    font-family: 'Marcellus SC';
+    font-size: 100px;
+    font-family: 'Cinzel';
     color: #a03232;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -98,4 +113,6 @@ img {
     background-size: cover;
     border: 2px;
     border-radius: 25px;
+    
+
     
