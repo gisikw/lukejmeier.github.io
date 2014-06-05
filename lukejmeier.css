@@ -1,5 +1,9 @@
-html, body, .container {
+html, body {
     height: 100%;
+}
+
+.container {
+  min-height: 100%;
 }
 
 .container .box {
